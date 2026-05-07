@@ -5,7 +5,7 @@ import profileImg from "./assets/profile.jpeg";
 
 export const USER_PROFILE = {
   name: "Dr. Shankar Aenagandula",
-  role: "Proffesor",
+  role: "Professor",
   avatar: profileImg,
   bio: "Professor and researcher working in Microwave NDT, Antenna Systems, EMI/EMC, and Sensor Technologies with a passion for innovation, education, and impactful engineering research."
 };
