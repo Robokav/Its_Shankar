@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Instagram, Github, Twitter,Mail, MessageCircle, Linkedin, ExternalLink,Youtube } from 'lucide-react';
-import profileImg from "./assets/profile.jpg";
+import profileImg from "./assets/profile.jpeg";
 
 export const USER_PROFILE = {
   name: "Dr. Shankar Aenagandula",
