@@ -4,17 +4,17 @@ import { Instagram, Github, Twitter,Mail, MessageCircle, Linkedin, ExternalLink,
 import profileImg from "./assets/profile.jpg";
 
 export const USER_PROFILE = {
-  name: "Kavin Bavisi",
-  role: "Creative Developer & Designer",
+  name: "Dr. Shankar Aenagandula",
+  role: "Proffesor",
   avatar: profileImg,
-  bio: "From concept → prototype, I learn by building, breaking, and rebuilding smarter ⚙️ Driven by curiosity ✦ a constant learner ✦ a passionate maker — turning ideas into action ⚡"
+  bio: "Professor and researcher working in Microwave NDT, Antenna Systems, EMI/EMC, and Sensor Technologies with a passion for innovation, education, and impactful engineering research."
 };
 
 export const SOCIAL_LINKS = [
   {
     id: '1',
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/kavin-amit-bavisi-826733386/',
+    url: 'https://www.linkedin.com/in/shankar-aenagandula-1bb22b54?utm_source=share_via&utm_content=profile&utm_medium=member_android',
     icon: <Linkedin  className="w-5 h-5" />,
     color: 'hover:bg-[#0077B5]',
     textColor: 'hover:text-white'
@@ -22,20 +22,20 @@ export const SOCIAL_LINKS = [
   {
     id: '2',
     name: 'Gmail',
-    url:"mailto:kavinbavisi@gmail.com",
-    //url: 'https://mail.google.com/mail/?view=cm&to=kavinbavisi@gmail.com',
+    url:"mailto:shankar.aenagandula@gmail.com",
+    //url: 'https://mail.google.com/mail/?view=cm&to=shankar.aenagandula@gmail.com',
     icon: <Mail className="w-5 h-5" />,
     color: 'hover:bg-[#D44638]',
     glowColor: 'group-hover:shadow-[0_0_20px_-5px_#D44638]'
   },
-    {
+    /*{
     id: '3',
     name: 'Instagram',
     url: 'https://www.instagram.com/kav_in2506/',
     icon: <Instagram className="w-5 h-5" />,
     color: 'hover:bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7]',
     textColor: 'hover:text-white'
-  },
+  },*/
   /*{
     id: '2',
     name: 'YouTube',
@@ -47,7 +47,7 @@ export const SOCIAL_LINKS = [
     {
     id: '4',
     name: 'WhatsApp',
-    url: 'https://wa.me/8422060314',
+    url: 'https://wa.me/9540745895',
     icon: <MessageCircle className="w-5 h-5" />,
     color: 'hover:bg-[#25D366]',
     textColor: 'hover:text-white'
