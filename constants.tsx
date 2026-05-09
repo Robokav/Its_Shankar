@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Instagram, Github, Twitter,Mail, MessageCircle, Linkedin, ExternalLink,Youtube } from 'lucide-react';
+import { Instagram, Github, Twitter,Mail, MessageCircle, Linkedin, ExternalLink,Youtube,GraduationCap } from 'lucide-react';
 import profileImg from "./assets/profile.jpeg";
 
 export const USER_PROFILE = {
@@ -52,6 +52,14 @@ export const SOCIAL_LINKS = [
     color: 'hover:bg-[#25D366]',
     textColor: 'hover:text-white'
   },
+  {
+  id: '5',
+  name: 'Google Scholar',
+  url: 'https://scholar.google.com/citations?user=I29itk8AAAAJ&hl=en',
+  icon: <GraduationCap className="w-5 h-5" />,
+  color: 'hover:bg-[#4285F4]',
+  textColor: 'hover:text-white'
+},
  /* {
     id: '4',
     name: 'GitHub',
